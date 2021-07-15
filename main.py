@@ -15,7 +15,7 @@ set_time.what_time_is_it()
 
 # call the alarm clock and toggle the alarm on or off
 toggle_alarm = Alarm_clock()
-toggle_status = toggle_alarm.alarm_toggle_switch()
+toggle_alarm.alarm_toggle_switch()
 
 #endregion
 
@@ -24,6 +24,5 @@ toggle_status = toggle_alarm.alarm_toggle_switch()
 set_alarm_time = Alarm_clock()
 set_alarm_time.set_wake_up_time()
 # print alarm toggle status
-print(toggle_status)
 
 #endregion
